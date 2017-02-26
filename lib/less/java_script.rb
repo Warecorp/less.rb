@@ -6,8 +6,8 @@ module Less
         require 'less/java_script/rhino_context'
         RhinoContext
       else
-        require 'less/java_script/v8_context'
-        V8Context
+        require 'less/java_script/mini_racer_context'
+        MiniRacerContext
       end
     end
     
